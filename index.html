@@ -8,17 +8,60 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="search.js"></script>
+        <style>
+             
+            body{
+                background-image: url("Login_BG.jpg");
+                background-repeat: no-repeat;
+                height: 100vh;
+                background-position: center;
+                background-size: cover;
+            } 
+        </style>
     </head>
     <body>
+      <header>
+        <img src="LogoRevised.jpg" alt="Logo of AcedeWiz" height="60" >
+       <a href="New_User_To_Login.html"> <button type="button" onclick="openForm()" name="logIn">LOG IN</button></a>
+        <span id="verticalLine"></span>
+        <input id="searchBar" type="text" name="search" placeholder="Search for a course..." onchange="searchDivs()" >
+      </header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="enrolledcourse.html">Courses</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="enrolledcourse.html"><strong>Courses</strong></a></li>
+                    <li><a href="aboutus.html"><strong>About Us</strong></a></li>
+                    <li><a href="contact.html"><strong>Contact</strong></a></li>
                 </ul>
             </div>
         </nav>
+
+        <div class="homecontent">
+            <ul>
+                <div class="col-sm-4 col-md-4 col-xs-8" style="padding: 5px"><img class="graduationpic" src="graduation.svg"/></div>
+                <div class="col-sm-8 col-md-8 col-xs-16" id="text">
+                    <div class="homelist"><li>Learn all the trending courses from our platform</li></div>
+                    <div class="homelist"><li>More than 250+ courses</li></div>
+                    <div class="homelist"><li>Adjust all deadlines to your convenience</li></div>
+                    <div class="homelist"><li>Register now to access certified courses</li></ul></div>
+                </div>
+            </ul>
+        </div>
+
+        <div class="courses">
+            <div class="opt" id="webdev">
+                <div class="coursename">INTRODUCTION TO WEB DEVELOPMENT</div>
+            </div>
+            <div class="opt" id="vr">
+                <div class="coursename">INTRODUCTION TO VIRTUAL REALITY</div>
+            </div>
+            <div class="opt" id="python" >
+                <div class="coursename">INTRODUCTION TO PYTHON AND DJANGO</div>
+            </div>
+            <p id = "contextText">Couldn't find results</p>
+        </div>
+
     </body>
 </html>
