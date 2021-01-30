@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="search.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css">
         <style>
             h1{
@@ -47,13 +48,19 @@
                 margin-left:20px;
                 padding: 20px;
                 text-align: justify;
-                font-size: larger;
+                font-size: x-large;
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight:500;
             }
         </style>
     </head>
     <body>
+      <header>
+        <img src="LogoRevised.jpg" alt="Logo of AcedeWiz" height="60" > 
+        <button type="button" name="logIn">LOG IN</button>
+        <span id="verticalLine"></span>
+        <input id="searchBar" type="text" name="search" placeholder="Search a course..." onchange="searchDivs()" >
+      </header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
@@ -69,7 +76,13 @@
         <h1>About Us</h1>
         <p class="Para" style="right: 50px;">We are a community aimed at providing useful content to budding youngsters with a curious mind and keen interest to acquire new knowledge.
             AcadeWiz partners with more then 500 leading universities and companies to bring affordable and relevent 
-            learning resources to students and working professionals across the globe. 
+            learning resources to students and working professionals across the globe. With more than 50,000  experienced teachers and 
+            millions of students AcadeWiz is the best platform to learn, understand and innovate.We also offer free and paid courses/specializations 
+            with valid shareable certifications.
         </p> 
+        <p class ="Para">
+            Currently AcadeWiz is one among the world's best online learning platform with live classes, recorded videos, flexible deadlines 
+            and much more. AcadeWiz has already helped millions of students to achieve their dreams.
+        </p>
     </body>
 </html>
