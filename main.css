@@ -17,7 +17,7 @@ button {
   margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: rgb(248, 221, 198); 
+  background-color: rgb(248, 221, 198);
   height:fit-content;
   width:75%;
   color:black;
@@ -77,12 +77,15 @@ ul{
   opacity: 75%;
 }
 
-#coursename{
+.coursename{
   padding-left: 10px;
   padding-top: 60px;
   color: white;
   font-weight: bold;
   position:absolute;
+}
+#contextText{
+  display: none;
 }
 
 #verticalLine {
@@ -151,4 +154,8 @@ background-size: cover;
 .modal-content{
     background:#ffe6e6
 }
-
+#contextText {
+  font-style: italic;
+  font-family: monospace;
+  color: #3B3086;
+}
