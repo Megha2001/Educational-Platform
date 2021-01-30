@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            width: 340px;
+            margin: 50px auto;
+            margin-bottom: 15px;
+            background:#ffe6e6;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        } 
+        .btn{
+            background-color: rgb(252, 188, 220);
+        }  
+        
+    .h2{
+        text-align: center;
+    }
+
+    .New_Account{
+        text-align: center;
+    }
+
+    .button{
+        background-color: #ffe6e6 ;
+        border: none;
+    }   
+
+    img{
+        max-width: 100%;
+        max-height: 10%;        
+    }   
+    body {
+        background-image: url("Login_BG.jpg");
+        background-repeat: no-repeat;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    </style>
+</head>
+<body class>
+
+<div class="container" id="LoginForm">
+    
+      
+    <h2 class="h2"><img src="LogoRevised.jpg"></h2>
+    
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+        </div>  
+    </form>
+    
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="email" placeholder="Enter Password" name="password">
+        </div>  
+    </form>
+        
+    <form action="/action_page.php">
+        <div>
+            <a href="#" class= "btn btn-primary.raised btn-block" role="button">Log In</button></a>
+        </div>  
+    </form>
+    <br>
+    
+    <form action="/action_page.php">
+        <div class = "clearfix">
+            <a href="#" class="pull-right">Forgot Password?</a>
+            <label><input type="checkbox"> Remember Me</label>          
+        </div>  
+    </form>
+    
+    <br>
+    <br>
+    
+    <form action="/action_page.php">
+        <div class="New_Account">
+            <a href="New User Page.html" > New to AcadeWiz?Create an account</a>         
+        </div>  
+    </form>
+</div>
+
+</body>
+</html>
+
