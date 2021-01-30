@@ -13,6 +13,78 @@ button {
   border-radius: 5px;
 }
 
+.homecontent{
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(248, 221, 198); 
+  height:fit-content;
+  width:75%;
+  color:black;
+}
+
+ul{
+  display: inline-block;
+  color: rgb(97, 97, 187);
+  font-weight: bold;
+  font-size:medium;
+}
+
+#text{
+  padding-top: 50px;
+  padding-left: 180px;
+}
+
+.homelist{
+  padding: 5px;
+}
+
+.graduationpic{
+  margin-left:50px;
+}
+
+.courses{
+  margin-left:150px;
+  display:felx;
+  align-items: center;
+  position:relative;
+}
+
+.opt{
+  float:left;
+  background-color: #7463dd;
+  border-radius: 4%;
+  width: 25%;
+  height:150px;
+  margin: 20px;
+}
+
+#webdev{
+  background-image: url(webdev.jfif);
+  background-blend-mode: multiply;
+  opacity: 75%;
+}
+
+#vr{
+  background-image: url(vr.jfif);
+  background-blend-mode: multiply;
+  opacity: 75%;
+}
+
+#python{
+  background-image: url(python.jfif);
+  background-blend-mode: multiply;
+  opacity: 75%;
+}
+
+#coursename{
+  padding-left: 10px;
+  padding-top: 60px;
+  color: white;
+  font-weight: bold;
+  position:absolute;
+}
+
 #verticalLine {
   display: inline-block;
   height: 25px;
@@ -79,3 +151,4 @@ background-size: cover;
 .modal-content{
     background:#ffe6e6
 }
+
