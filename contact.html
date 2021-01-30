@@ -12,6 +12,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dawning+of+a+New+Day&family=Gamja+Flower&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
+        body{
+            background-image: url("Login_BG.jpg");
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
 		h3{
 			font-family: 'Caveat', cursive;
 			font-family: 'Dawning of a New Day', cursive;
@@ -33,6 +40,12 @@
 	</style>
     </head>
     <body>
+        <header>
+            <img src="LogoRevised.jpg" alt="Logo of AcedeWiz" height="60" >
+           <a href="New_User_To_Login.html"> <button type="button" onclick="openForm()" name="logIn">LOG IN</button></a>
+            <span id="verticalLine"></span>
+            <input id="searchBar" type="text" name="search" placeholder="Search for a course..." onchange="searchDivs()" >
+          </header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
