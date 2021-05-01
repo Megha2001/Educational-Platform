@@ -306,7 +306,7 @@ h1.small{
   }
   .connect h3{
     margin-left: 32%;
-    margin-top: 13%;
+    margin-top: 17%;
   }
   .stud_img img{
     height:300px;
@@ -321,4 +321,11 @@ h1.small{
     margin-left:11%;
   }
   
+}
+
+@include media-breakpoint-down(xs) {
+  .container {
+      margin-left: 0;
+      margin-right: 0;
+  }
 }
