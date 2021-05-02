@@ -35,6 +35,10 @@ button {
   background-color: white;
 }
 
+.navbar-toggle{
+  float:right;
+}
+
 .navbar-toggle, .navbar-toggle:focus, .navbar-toggle:hover{
   background-color: white !important;
   border-color: #3B3086;
@@ -198,8 +202,12 @@ background-size: cover;
   font-family: monospace;
   color: #3B3086;
 }
-#searchBar{
-  width:400px;
+
+input.large{
+  display:block;
+}
+input.small{
+  display:none;
 }
 
 h1.large{
@@ -297,9 +305,21 @@ h1.small{
 
 @media screen and (max-width:600px){
   #searchBar{
-    width:150px;
-    height:25px;
+    margin-top:13px;
+    width:180px;
+    height:27px;
   }
+  #verticalLine{
+    display:none;
+  }
+
+  input.large{
+    display:none;
+  }
+  input.small{
+    display:block;
+  }
+
   .en_course h3{
     font-size: 20px;
     margin-top:30%;
@@ -321,11 +341,4 @@ h1.small{
     margin-left:11%;
   }
   
-}
-
-@include media-breakpoint-down(xs) {
-  .container {
-      margin-left: 0;
-      margin-right: 0;
-  }
 }
